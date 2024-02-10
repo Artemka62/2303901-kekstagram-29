@@ -77,7 +77,7 @@ const messageErrorDownload = () => {
 };
 
 const getPicturesFromServer = () => {
-  fetch('https://29.javascript.pages.academy/kekstagram/data', {
+  fetch('https://29.javascript.htmlacademy.pro/kekstagram/data/', {
     method: 'GET',
     credentials: 'same-origin'
   })
@@ -102,7 +102,7 @@ const getPicturesFromServer = () => {
 getPicturesFromServer();
 
 const postDatesFormToServer = (formData) => {
-  fetch('https://29.javascript.pages.academy/kekstagram', {
+  fetch('https://29.javascript.htmlacademy.pro/kekstagram/', {
     method: 'POST',
     credentials: 'same-origin',
     body: formData
